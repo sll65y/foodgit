@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f6ef">
+  <title>食序 · 智能饮食规划</title>
+  <link rel="icon" href="/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topinner">
+      <a class="brand" href="#planner"><img src="/mark.svg" alt=""><span>食序 <small>SHIXU</small></span></a>
+      <nav id="navigation" aria-label="主导航">
+        <a href="#planner">饮食规划</a><a href="#catalog">菜品库</a><a href="#records">饮食记录</a><a href="#profile">个人画像</a>
+      </nav>
+      <div id="account"></div>
+    </div>
+  </header>
+  <main id="content" class="frame" tabindex="-1">
+    <p class="loading">正在连接本地服务…</p>
+  </main>
+  <footer class="frame footer"><span>食序 SHIXU</span><span>课程设计原型 · 菜品营养数据为演示估算</span></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+</body>
+</html>
